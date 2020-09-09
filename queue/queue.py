@@ -23,8 +23,7 @@ class Queue:
     
     def __len__(self):
         return self.size
-        # other option return len(self.storage)
-
+      
     def enqueue(self, value):
         self.storage.add_to_tail(value)
         self.size += 1
